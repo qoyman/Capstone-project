@@ -1,56 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
+  margin: 0;
   padding: 0;
-  margin: auto;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.container {
-  width: 100%;
-  height: auto;
+.sec1 {
   position: relative;
-}
-
-.container img {
   width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(images/best-cofee.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.container .menu {
-  position: absolute;
-  left: 15px;
-  top: 10px;
-  width: 25px;
-  height: 25px;
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container h3 {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 16px;
-  color: rgb(67, 105, 43);
-  font-size: 27px;
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: b;
+header .logo {
+  position: relative;
+  color: #090909;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
-.container h1 {
+header .navigation a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .navigation a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header .navigation a:hover {
+  background: #fff;
+}
+
+header .navigation {
+  display: none;
+}
+
+label {
+  display: block;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: color;
+}
+
+label:hover {
+  color: #fff;
+}
+
+label .close-btn {
+  display: none;
+}
+
+#check:checked ~ header .navigation {
+  z-index: 2;
+  position: fixed;
+  background: rgba(114, 223, 255, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#check:checked ~ header .navigation a {
+  font-weight: 700;
+  margin-right: 0;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+#check:checked ~ header label .menu-btn {
+  display: none;
+}
+
+#check:checked ~ header label .close-btn {
+  z-index: 2;
+  display: block;
+  position: fixed;
+}
+
+#check {
+  z-index: 3;
+  display: none;
+}
+
+label .menu-btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+}
+
+header .logo {
+  position: absolute;
+}
+
+.content {
+  max-width: 650px;
+  margin: 60px 50px;
+}
+
+.content .info h2 {
+  color: #226a80;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.content .info h2 span {
+  color: #fff;
   font-size: 50px;
-  text-align: center;
+  font-weight: 600;
 }
 
-.container .sec1-btn {
-  position: absolute;
-  bottom: 50px;
-  left: 100px;
-  width: 120px;
-  background-color: rgb(67, 105, 43);
-  color: white;
+.content .info-btn {
+  color: #fff;
+  background: #226a80;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.content .info-btn:hover {
+  background: #0c4f60;
 }
 
 .sec2 {
@@ -69,31 +174,31 @@
   padding-bottom: 10px;
 }
 
-.sec3 {
+.sec4 {
   background-color: #3a3e3b;
   color: white;
   height: 100%;
 }
 
-.sec3-pro {
+.sec4-pro {
   margin-top: 30px;
 }
-.sec3-pro h5 {
+.sec4-pro h5 {
   color: rgb(67, 105, 43);
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
 }
-.sec3-pro h2 {
+.sec4-pro h2 {
   margin-bottom: 15px;
 }
 
-.sec3-dimg {
+.sec4-dimg {
   width: 250px;
   height: 200px;
   border-radius: 10px;
 }
 
-.sec-4 {
+.sec-5 {
   background-color: rgb(171, 171, 171);
 }
 
@@ -103,32 +208,32 @@
   font-weight: bolder;
 }
 
-.sec4-pad {
-  width: 250px;
+.sec5-pad {
+  width: 300px;
   height: -moz-fit-content;
   height: fit-content;
-  border: 1px solid rgb(1, 161, 1);
   position: relative;
   border-radius: 10px;
+  justify-content: space-between;
 }
-.sec4-pad .sec4-dimg {
+.sec5-pad .sec5-dimg {
   width: 250px;
   height: 200px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.sec4-pad .sec4-pad1 {
+.sec5-pad .sec5-pad1 {
   background-color: rgb(64, 107, 1);
   height: 200px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.sec4-pad .sec4-pad1 h6 {
+.sec5-pad .sec5-pad1 h6 {
   color: white;
   font-size: 20px;
 }
 
-.sec4-mid {
+.sec5-mid {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -140,10 +245,11 @@
   border: 1px solid #38353d;
 }
 
-.sec5-img {
+.sec3-img {
   border: 3px solid rgb(148, 168, 120);
   border-radius: 10px;
-  height: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .so-img {
@@ -162,4 +268,57 @@ footer {
 footer img {
   width: 15px;
   height: 15px;
+}
+
+@media (min-width: 767px) {
+  .content {
+    max-width: 650px;
+    margin: 60px 70px;
+  }
+  header .navigation {
+    display: none;
+  }
+  .content .info h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .content .info h2 span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .content .info p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1023px) {
+  .content {
+    max-width: 650px;
+    margin: 60px 180px;
+  }
+  label {
+    display: none;
+  }
+  #check {
+    z-index: 3;
+    display: none;
+  }
+  header {
+    top: 10px;
+    padding: 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  header .navigation {
+    display: block;
+    padding-top: 30px;
+  }
+  header .logo {
+    padding-top: 10px;
+  }
+  .sec4-dimg {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
