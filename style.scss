@@ -80,8 +80,8 @@ label .close-btn {
 }
 
 label .menu-btn {
-    position: absolute;
-  }
+  position: absolute;
+}
 
 #check:checked ~ header .navigation {
   z-index: 2;
@@ -163,7 +163,6 @@ label .menu-btn {
 }
 
 .sec2 div {
-  
   margin: 0 auto;
   padding: 40px;
 
@@ -197,7 +196,6 @@ label .menu-btn {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
   }
-
 }
 
 .sec4-dimg {
@@ -239,13 +237,11 @@ label .menu-btn {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
-
     h6 {
       color: white;
       font-size: 20px;
     }
   }
-
 }
 
 .sec5-mid {
