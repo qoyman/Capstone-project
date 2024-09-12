@@ -30,7 +30,7 @@ header {
 
 header .logo {
   position: relative;
-  color: #090909;
+  color: #226a80;
   font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
@@ -39,9 +39,9 @@ header .logo {
 }
 
 header .navigation a {
-  color: #000;
+  color: #226a80;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 20px;
@@ -53,7 +53,7 @@ header .navigation a:not(:last-child) {
   margin-right: 30px;
 }
 
-.header .navigation a:hover {
+header .navigation a:hover {
   background: #fff;
 }
 
@@ -67,6 +67,7 @@ label {
   cursor: pointer;
   transition: 0.3s;
   transition-property: color;
+  margin-right: 5px;
 }
 
 label:hover {
@@ -130,7 +131,7 @@ header .logo {
   color: #226a80;
   font-size: 10px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 60px;
   margin-bottom: 30px;
 }
@@ -172,6 +173,13 @@ header .logo {
   width: 40px;
   height: 40px;
   padding-bottom: 10px;
+}
+
+.sec3-img {
+  border: 3px solid rgb(148, 168, 120);
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
 }
 
 .sec4 {
@@ -245,13 +253,6 @@ header .logo {
   border: 1px solid #38353d;
 }
 
-.sec3-img {
-  border: 3px solid rgb(148, 168, 120);
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-}
-
 .so-img {
   width: 25px;
   height: 25px;
@@ -289,6 +290,9 @@ footer img {
   .content .info p {
     font-size: 14px;
   }
+  .fucinfo {
+    margin-top: 25px;
+  }
 }
 @media (min-width: 1023px) {
   .content {
@@ -319,6 +323,9 @@ footer img {
   .sec4-dimg {
     width: -moz-fit-content;
     width: fit-content;
+    margin-top: 50px;
+  }
+  .sec3-img {
     margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
