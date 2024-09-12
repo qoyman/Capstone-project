@@ -32,7 +32,7 @@ header {
 header .logo {
   position: relative;
   color: #226a80;
-  font-size: 10px;
+  font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
@@ -164,203 +164,205 @@ header .logo {
 
 //section2
 .sec2 {
-    margin-top: 50px;
-    background-color: rgb(171, 171, 171);
+  margin-top: 50px;
+  background-color: rgb(171, 171, 171);
 }
 
 .sec2 div{
-    margin-top: 30px;
-    margin: 0 auto;
-    padding: 40px;
+  margin-top: 30px;
+  margin: 0 auto;
+  padding: 40px;
 
-    img {
-        width: 40px;
-        height: 40px;
-        padding-bottom: 10px;
-    }
+  img {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+  }
 }
 
 // section3
 .sec3-img {
-    border: 3px solid rgb(148, 168, 120);
-    border-radius: 10px;
-    height: 200px;
-    width: 200px;
+  border: 3px solid rgb(148, 168, 120);
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
 }
 
 //section4
 .sec4 {
-    background-color: #3a3e3b;
-    color: white;
-    height: 100%;
+  background-color: #3a3e3b;
+  color: white;
+  height: 100%;
 }
 
 .sec4-pro {
-    margin-top: 30px;
+  margin-top: 30px;
 
-    h5 {
-        color:  rgba(67, 105, 43, 1);
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bolder;
-    }
+  h5 {
+    color:  rgba(67, 105, 43, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
     
-    h2 {
-        margin-bottom: 15px;
+  h2 {
+    margin-bottom: 15px;
         
-    }
+  }
 }
 
 .sec4-dimg {
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
 }
 
 //section5
 .sec-5 {
-    background-color: rgb(171, 171, 171);
+  background-color: rgb(171, 171, 171);
 }
 
 .out-explore {
-    h3 {
-        color:  rgba(67, 105, 43, 1);
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bolder;
-    }
+  h3 {
+    color:  rgba(67, 105, 43, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
 }
 
 .sec5-pad {
-    width: 300px;
-    height: fit-content;
-    position: relative;
-    border-radius: 10px;
-    justify-content: space-between;
+  width: 300px;
+  height: fit-content;
+  position: relative;
+  border-radius: 10px;
+  justify-content: space-between;
     
-    .sec5-dimg {
-        width: 250px;
-        height: 200px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        
-        
-    }
+  .sec5-dimg {
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+  }
 
-    .sec5-pad1 {
-        background-color: rgb(64, 107, 1);
-        height: 200px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+  .sec5-pad1 {
+    background-color: rgb(64, 107, 1);
+    height: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
         
 
-        h6 {
-            color: white;
-            font-size: 20px;
-        }
-        
-    }
+    h6 {
+      color: white;
+      font-size: 20px;
+    }    
+  }
 }
 
 .sec5-mid {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 35px;
-    height: 35px;
-    background-color: rgb(173, 173, 0);
-    border-radius: 50%;
-    border: 1px solid #38353d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+  background-color: rgb(173, 173, 0);
+  border-radius: 50%;
+  border: 1px solid #38353d;
 }
 
 //section 6
 .so-img {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .nofunc div {
-    color: rgb(148, 168, 120);
+  color: rgb(148, 168, 120);
 }
 
 footer {
-    background-color: rgb(148, 168, 120);
+  background-color: rgb(148, 168, 120);
 
-    img {
-        width: 15px;
-        height: 15px;
-    }
+  img {
+    width: 15px;
+    height: 15px;
   }
+}
       
 @media (min-width: 767px) {
-    .content {
-        max-width: 650px;
-        margin: 60px 70px;
-      }
+  .content {
+    max-width: 650px;
+    margin: 60px 90px;
+  }
 
-      header .navigation {
-        display: none;
-      }
+  header .navigation {
+    display: none;
+  }
     
-      .content .info h2 {
-        font-size: 45px;
-        line-height: 50px;
-      }
+  .content .info h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
     
-      .content .info h2 span {
-        font-size: 40px;
-        font-weight: 600;
-      }
+  .content .info h2 span {
+    font-size: 40px;
+    font-weight: 600;
+  }
     
-      .content .info p {
-        font-size: 14px;
-      }
+  .content .info p {
+    font-size: 14px;
+  }
 
-      .fucinfo {
-        margin-top: 25px;
-      }
-
+  .fucinfo {
+    margin-top: 25px;
+  }
 }
 
 @media (min-width: 1023px) {
-    .content {
-        max-width: 650px;
-        margin: 60px 180px;
-      }
+  .content {
+    max-width: 900px;
+    margin: 60px 180px;
+  }
 
-      label {
-        display: none;
-      }
+  label {
+    display: none;
+  }
       
-      #check {
-        z-index: 3;
-        display: none;
-      }
+  #check {
+    z-index: 3;
+    display: none;
+  }
 
-      header {
-        top: 10px;
-        padding: 15px 15px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-      }
+  header {
+    top: 10px;
+    padding: 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
     
-      header .navigation {
-        display: block;
-        padding-top: 30px;
-      }
+  header .navigation {
+    display: block;
+    padding-top: 30px;
+  }
     
-      header .logo {
-        padding-top: 10px;
-      } 
+  header .logo {
+    padding-top: 10px;
+  } 
     
-      .sec4-dimg {
-        width: fit-content;
-        margin-top: 50px;
-      }
+  .sec4-dimg {
+    width: fit-content;
+    margin-top: 50px;
+  }
       
-      .sec3-img {
-        margin-top: 50px;
-      }
-      
+  .sec3 {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sec3-img {
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+  }  
 }
