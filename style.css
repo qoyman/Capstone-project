@@ -29,7 +29,7 @@ header {
 }
 
 header .logo {
-  position: relative;
+  position: absolute;
   color: #226a80;
   font-size: 15px;
   text-decoration: none;
@@ -115,10 +115,6 @@ label .close-btn {
 }
 
 label .menu-btn {
-  position: absolute;
-}
-
-header .logo {
   position: absolute;
 }
 
