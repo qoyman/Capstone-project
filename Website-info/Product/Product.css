@@ -16,6 +16,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/best-cofee.png);
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 header {
@@ -61,63 +62,6 @@ header .navigation {
   display: none;
 }
 
-label {
-  display: block;
-  font-size: 25px;
-  cursor: pointer;
-  transition: 0.3s;
-  transition-property: color;
-  margin-right: 5px;
-}
-
-label:hover {
-  color: #fff;
-}
-
-label .close-btn {
-  display: none;
-}
-
-label .menu-btn {
-  position: absolute;
-}
-
-#check:checked ~ header .navigation {
-  z-index: 2;
-  position: fixed;
-  background: rgba(114, 223, 255, 0.9);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#check:checked ~ header .navigation a {
-  font-weight: 700;
-  margin-right: 0;
-  margin-bottom: 50px;
-  letter-spacing: 2px;
-}
-
-#check:checked ~ header label .menu-btn {
-  display: none;
-}
-
-#check:checked ~ header label .close-btn {
-  z-index: 2;
-  display: block;
-  position: fixed;
-}
-
-#check {
-  z-index: 3;
-  display: none;
-}
-
 .content {
   max-width: 650px;
   margin: 60px 50px;
@@ -155,32 +99,14 @@ label .menu-btn {
   background: #0c4f60;
 }
 
-.sec2 {
-  margin-top: 50px;
-  background-color: rgb(171, 171, 171);
-}
-
-.sec2 div {
-  margin: 0 auto;
-  padding: 40px;
-}
-.sec2 div img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
-.sec3-img {
-  border: 3px solid rgb(148, 168, 120);
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-}
-
 .sec4 {
   background-color: #3a3e3b;
   color: white;
   height: 100%;
+}
+
+.intro {
+  max-width: 65ch;
 }
 
 .sec4-pro {
@@ -196,63 +122,6 @@ label .menu-btn {
   width: 250px;
   height: 200px;
   border-radius: 10px;
-}
-
-.sec-5 {
-  background-color: rgb(171, 171, 171);
-}
-
-.out-explore h3 {
-  color: rgb(67, 105, 43);
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
-}
-
-.sec5-pad {
-  width: 300px;
-  height: -moz-fit-content;
-  height: fit-content;
-  position: relative;
-  border-radius: 10px;
-  justify-content: space-between;
-}
-.sec5-pad .sec5-dimg {
-  width: 250px;
-  height: 200px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.sec5-pad .sec5-pad1 {
-  background-color: rgb(64, 107, 1);
-  height: 200px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.sec5-pad .sec5-pad1 h6 {
-  color: white;
-  font-size: 20px;
-}
-
-.sec5-mid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 35px;
-  height: 35px;
-  background-color: rgb(173, 173, 0);
-  border-radius: 50%;
-  border: 1px solid #38353d;
-}
-
-.so-img {
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
-}
-
-.nofunc div {
-  color: rgb(148, 168, 120);
 }
 
 footer {
@@ -284,7 +153,6 @@ footer .fot-img {
   }
   .fucinfo {
     margin-top: 25px;
-    padding-left: 100px;
   }
 }
 @media (min-width: 1023px) {
@@ -318,16 +186,7 @@ footer .fot-img {
     width: fit-content;
     margin-top: 50px;
   }
-  .sec3 {
-    justify-content: space-between;
-    align-items: center;
+  .sec40 {
+    padding-left: 270px;
   }
-  .sec3-img {
-    margin-top: 50px;
-    height: 250px;
-    width: 200px;
-  }
-  .fucinfo {
-    padding-left: 200px;
-  }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=Product.css.map */
