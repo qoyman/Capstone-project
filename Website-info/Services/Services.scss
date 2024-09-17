@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/best-cofee.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/best-cofee.png);
   background-size: cover;
   background-position: center;
 }
@@ -40,7 +40,7 @@ header .logo {
 }
 
 header .navigation a {
-  color: #0298c6;
+  color: #226a80;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 1px;
@@ -69,54 +69,6 @@ label {
   transition: 0.3s;
   transition-property: color;
   margin-right: 5px;
-}
-
-label:hover {
-  color: #fff;
-}
-
-label .close-btn {
-  display: none;
-}
-
-label .menu-btn {
-  position: absolute;
-}
-
-#check:checked ~ header .navigation {
-  z-index: 2;
-  position: fixed;
-  background: rgba(114, 223, 255, 0.9);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#check:checked ~ header .navigation a {
-  font-weight: 700;
-  margin-right: 0;
-  margin-bottom: 50px;
-  letter-spacing: 2px;
-}
-
-#check:checked ~ header label .menu-btn {
-  display: none;
-}
-
-#check:checked ~ header label .close-btn {
-  z-index: 2;
-  display: block;
-  position: fixed;
-}
-
-#check {
-  z-index: 3;
-  display: none;
 }
 
 .content {
@@ -156,6 +108,7 @@ label .menu-btn {
   background: #0c4f60;
 }
 
+//section2
 .sec2 {
   margin-top: 50px;
   background-color: rgb(171, 171, 171);
@@ -164,14 +117,15 @@ label .menu-btn {
 .sec2 div {
   margin: 0 auto;
   padding: 40px;
+
+  img {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+  }
 }
 
-.sec2 div img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
+// section3
 .sec3-img {
   border: 3px solid rgb(148, 168, 120);
   border-radius: 10px;
@@ -179,6 +133,7 @@ label .menu-btn {
   width: 200px;
 }
 
+//section4
 .sec4 {
   background-color: #3a3e3b;
   color: white;
@@ -187,12 +142,12 @@ label .menu-btn {
 
 .sec4-pro {
   margin-top: 30px;
-}
 
-.sec4-pro h5 {
-  color: rgb(67, 105, 43);
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
+  h5 {
+    color: rgba(67, 105, 43, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
 }
 
 .sec4-dimg {
@@ -201,42 +156,44 @@ label .menu-btn {
   border-radius: 10px;
 }
 
+//section5
 .sec-5 {
   background-color: rgb(171, 171, 171);
 }
 
-.out-explore h3 {
-  color: rgb(67, 105, 43);
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
+.out-explore {
+  h3 {
+    color: rgba(67, 105, 43, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
 }
 
 .sec5-pad {
   width: 300px;
-  height: -moz-fit-content;
   height: fit-content;
   position: relative;
   border-radius: 10px;
   justify-content: space-between;
-}
 
-.sec5-pad .sec5-dimg {
-  width: 250px;
-  height: 200px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
+  .sec5-dimg {
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
 
-.sec5-pad .sec5-pad1 {
-  background-color: rgb(64, 107, 1);
-  height: 200px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
+  .sec5-pad1 {
+    background-color: rgb(64, 107, 1);
+    height: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
-.sec5-pad .sec5-pad1 h6 {
-  color: white;
-  font-size: 20px;
+    h6 {
+      color: white;
+      font-size: 20px;
+    }
+  }
 }
 
 .sec5-mid {
@@ -251,6 +208,7 @@ label .menu-btn {
   border: 1px solid #38353d;
 }
 
+//section 6
 .so-img {
   width: 25px;
   height: 25px;
@@ -263,11 +221,11 @@ label .menu-btn {
 
 footer {
   background-color: rgb(148, 168, 120);
-}
 
-footer .fot-img {
-  width: 15px;
-  height: 15px;
+  .fot-img {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 @media (min-width: 767px) {
@@ -296,7 +254,6 @@ footer .fot-img {
 
   .fucinfo {
     margin-top: 25px;
-    padding-left: 100px;
   }
 }
 
@@ -333,7 +290,6 @@ footer .fot-img {
   }
 
   .sec4-dimg {
-    width: -moz-fit-content;
     width: fit-content;
     margin-top: 50px;
   }
@@ -348,8 +304,4 @@ footer .fot-img {
     height: 250px;
     width: 200px;
   }
-
-  .fucinfo {
-    padding-left: 200px;
-  }
-} /*# sourceMappingURL=style.css.map */
+}

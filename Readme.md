@@ -1,4 +1,4 @@
-# Figma-design
+# capstone project
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -11,7 +11,7 @@
 8. [support](#show-your-support)
 
 ## Introduction
-> The [figma design](https://www.figma.com/design/FCIikHn5mp3GYEZsZPDLEU/project?node-id=0-1&t=N4Yh5E0LMKISUuoL-0) is the project being cloned in this repository, with a aim of improving our (Interns at SOI) knowledge on how to implement bootstrap better to our code.
+> The [capstone project](https://www.figma.com/design/FCIikHn5mp3GYEZsZPDLEU/project?node-id=0-1&t=N4Yh5E0LMKISUuoL-0) is the project being cloned in this repository, with a aim of improving our (Interns at SOI) knowledge on how to implement bootstrap better to our code.
 
 ## Installation
 ### Prerequisites
@@ -19,14 +19,14 @@
 - it is also recommended to download the live sass compiler by gleen marks on the extention market on vs code in other for the sass file to be compiled to css file.
 
 ## Screenshot
-![screenshot](/images/figma-design.png)
+![screenshot](/images/capstonescreenshot.png)
 
 ## Built With 
 HTML <br> CSS <br> SASS <br> Bootstrap
 
 ## Live Demo
 
-[Live Demo link](https://qoyman.github.io/Figma-design/) --This is the live link to the page feel free to view to see how far the project has gone
+[Live Demo link](https://qoyman.github.io/Capstone-project/) --This is the live link to the page feel free to view to see how far the project has gone
 
  Authors
 
