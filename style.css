@@ -14,8 +14,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: 
-  linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/best-cofee.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)),
+    url(images/best-cofee.png);
   background-size: cover;
   background-position: center;
 }
@@ -353,5 +353,4 @@ footer .fot-img {
   .fucinfo {
     padding-left: 200px;
   }
-
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
